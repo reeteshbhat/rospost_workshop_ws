@@ -1,0 +1,8 @@
+prefix=/home/reetesh/post_workshop_ws/devel
+
+Name: task_1
+Description: Description of task_1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
