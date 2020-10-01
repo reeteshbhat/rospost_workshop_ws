@@ -2,7 +2,7 @@
 
 message(STATUS "brics_actuator: 12 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ibrics_actuator:/home/reetesh/post_workshop_ws/src/brics_actuator/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ibrics_actuator:/home/reetesh/post_workshop_ws/src/brics_actuator/msg;-Igeometry_msgs:/home/reetesh/post_workshop_ws/src/geometry_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -24,7 +24,7 @@ add_custom_target(_brics_actuator_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg" NAME_WE)
 add_custom_target(_brics_actuator_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "brics_actuator" "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg" "geometry_msgs/Quaternion:brics_actuator/Poison:brics_actuator/CartesianVector"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "brics_actuator" "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg" "brics_actuator/Poison:geometry_msgs/Quaternion:brics_actuator/CartesianVector"
 )
 
 get_filename_component(_filename "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianWrench.msg" NAME_WE)
@@ -92,7 +92,7 @@ _generate_msg_cpp(brics_actuator
 _generate_msg_cpp(brics_actuator
   "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
+  "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/geometry_msgs/msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/brics_actuator
 )
 _generate_msg_cpp(brics_actuator
@@ -213,7 +213,7 @@ _generate_msg_eus(brics_actuator
 _generate_msg_eus(brics_actuator
   "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
+  "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/geometry_msgs/msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/brics_actuator
 )
 _generate_msg_eus(brics_actuator
@@ -334,7 +334,7 @@ _generate_msg_lisp(brics_actuator
 _generate_msg_lisp(brics_actuator
   "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
+  "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/geometry_msgs/msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/brics_actuator
 )
 _generate_msg_lisp(brics_actuator
@@ -455,7 +455,7 @@ _generate_msg_nodejs(brics_actuator
 _generate_msg_nodejs(brics_actuator
   "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
+  "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/geometry_msgs/msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/brics_actuator
 )
 _generate_msg_nodejs(brics_actuator
@@ -576,7 +576,7 @@ _generate_msg_py(brics_actuator
 _generate_msg_py(brics_actuator
   "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
+  "/home/reetesh/post_workshop_ws/src/brics_actuator/msg/Poison.msg;/home/reetesh/post_workshop_ws/src/geometry_msgs/msg/Quaternion.msg;/home/reetesh/post_workshop_ws/src/brics_actuator/msg/CartesianVector.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/brics_actuator
 )
 _generate_msg_py(brics_actuator

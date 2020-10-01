@@ -754,8 +754,14 @@ geometry2_BINARY_DIR:STATIC=/home/reetesh/post_workshop_ws/build/geometry2/geome
 //Value Computed by CMake
 geometry2_SOURCE_DIR:STATIC=/home/reetesh/post_workshop_ws/src/geometry2/geometry2
 
+//Value Computed by CMake
+geometry_msgs_BINARY_DIR:STATIC=/home/reetesh/post_workshop_ws/build/geometry_msgs
+
 //The directory containing a CMake configuration file for geometry_msgs.
-geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
+geometry_msgs_DIR:PATH=/home/reetesh/post_workshop_ws/devel/share/geometry_msgs/cmake
+
+//Value Computed by CMake
+geometry_msgs_SOURCE_DIR:STATIC=/home/reetesh/post_workshop_ws/src/geometry_msgs
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/reetesh/post_workshop_ws/build/gtest
@@ -1178,7 +1184,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=26
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

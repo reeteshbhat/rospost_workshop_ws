@@ -2,7 +2,7 @@
 
 message(STATUS "whycon: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iwhycon:/home/reetesh/post_workshop_ws/src/whycon/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iwhycon:/home/reetesh/post_workshop_ws/src/whycon/msg;-Igeometry_msgs:/home/reetesh/post_workshop_ws/src/geometry_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
