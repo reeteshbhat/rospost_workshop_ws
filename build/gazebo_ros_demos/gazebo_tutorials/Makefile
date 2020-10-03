@@ -181,66 +181,6 @@ gazebo_tutorials/fast:
 .PHONY : gazebo_tutorials/fast
 
 # Convenience name for target.
-gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-.PHONY : gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-.PHONY : gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_nodejs: gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
-.PHONY : trajectory_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-.PHONY : gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_lisp: gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_lisp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-.PHONY : gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_eus: gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
 	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : gazebo_ros_demos/gazebo_tutorials/CMakeFiles/tf_generate_messages_nodejs.dir/rule
@@ -389,21 +329,6 @@ std_srvs_generate_messages_eus: gazebo_ros_demos/gazebo_tutorials/CMakeFiles/std
 std_srvs_generate_messages_eus/fast:
 	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f gazebo_ros_demos/gazebo_tutorials/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make gazebo_ros_demos/gazebo_tutorials/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 .PHONY : std_srvs_generate_messages_eus/fast
-
-# Convenience name for target.
-gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-.PHONY : gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_cpp: gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_cpp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/reetesh/post_workshop_ws/build && $(MAKE) -f gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make gazebo_ros_demos/gazebo_tutorials/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 gazebo_ros_demos/gazebo_tutorials/CMakeFiles/tf_generate_messages_py.dir/rule:
@@ -624,10 +549,6 @@ help:
 	@echo "... test"
 	@echo "... install/local"
 	@echo "... gazebo_tutorials"
-	@echo "... trajectory_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_eus"
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... gazebo_ros_gencfg"
@@ -638,7 +559,6 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_nodejs"
 	@echo "... gazebo_msgs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_eus"
-	@echo "... trajectory_msgs_generate_messages_cpp"
 	@echo "... tf_generate_messages_py"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
